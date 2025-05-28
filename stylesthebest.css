@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+} 
+body{
+background-image: url(ChatGPT\ Image\ 26\ may\ 2025\,\ 05_14_53\ p.m..png);
+color: #ffffff;
+} 
+#contenedor {
+    width: 960px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+header{
+    height: 150px;
+    background: #000;
+}
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+}
+nav {
+    background: rgb(255, 255, 255);   
+    height: 60px;
+}
+nav h2 {
+    font-size: 40px;
+    text-align: center;
+}
+#contenido {
+    width: 700px;
+    height: 500px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #6E5415;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#contenido iframe {
+    align-self: center;
+    display: block;
+    margin: 0 auto;
+}
+#contenido h2{
+    font-size: 40px;
+    text-align: center;
+}
+#contenido p {
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+article img {
+    max-width: 100%;
+    height: auto;
+}
+aside{
+    width: 250px;
+    height: 500px;
+    background: #6E5415;
+    margin-top: 10px;
+    float: right;
+}
+aside h2 {
+    font-size: 30px;
+    text-align: center;
+}
+footer{
+    background: #000;
+    clear:both;
+}
+footer h2 {
+    font-size: 40px;
+    text-align: center;
+    padding:20px;
+    font-style:italic;
+}
+#contacto {
+    max-width: 400px;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+input {
+    padding: 5px;
+}
